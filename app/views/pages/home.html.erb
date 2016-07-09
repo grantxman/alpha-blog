@@ -1,57 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-#header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
-}
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100px;
-    float:left;
-    padding:5px;
-}
-#section {
-    width:350px;
-    float:left;
-    padding:10px;
-}
-#footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
-}
-</style>
-</head>
-<body>
+<div class="jumbotron">
+    
+    <h1>Alpha Blog</h1>
 
-<div id="header">
-<h1>Welcome to the TEST SITE</h1>
-</div>
-
-<div id="nav">
-
-<%= link_to 'Alpha Blog', articles_path %> | <%= link_to 'About', about_path %><br>
+<%= link_to 'Sign up now', '#', class:"btn button-primary" %> | <%= link_to 'About', about_path %><br>
 
 
 </div>
-
-<div id="section">
-<h2>Homepage</h2>
-<p>This is the homepage</p>
-
-</div>
-
-<div id="footer">
-Copyright © Grant Christman
-</div>
-
-</body>
-</html>
